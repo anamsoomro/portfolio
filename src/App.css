@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.carousel {
+  width: 90%;
+  height: 50vw;
+}
+
+
+.carousel-inner {
+  width: 100%;
+  /* height: 500px; */
+  height: 50vw;
+  object-fit: cover;
+
+}
+
+a.nav-link {
+  color:   #e7e4e4 !important;
+}
+
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-deck { 
+  margin-bottom: 5%;
 }
