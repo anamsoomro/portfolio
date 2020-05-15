@@ -4,8 +4,9 @@ import {Link} from 'react-router-dom'
 
 function PictureShuffle () {
   return (
-    <div>
+    <div className="page">
       <h1> PictureShuffle</h1>
+
       <Link to="/projects"><h2>BACK TO PROJECTS</h2></Link>
     </div>
   )

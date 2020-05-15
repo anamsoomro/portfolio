@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function MoneyMoon () {
   return (
-    <div>
+    <div className="page">
       <h2> MoneyMoon</h2>
 
 
