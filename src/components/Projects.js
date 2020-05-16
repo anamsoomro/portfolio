@@ -4,17 +4,17 @@ import {Link} from 'react-router-dom'
 
 function Projects () {
   return (
-    <div style={{padding: "5%"}}>
+    <div className="page">
 
-      <div class="card-deck">
         <div class="card" >
           <Link to="/projects/moneymoon" >
-            <img class="card-img-top" src={require('../images/moneymoon.png')} alt="Card image cap"/>
+            <img class="card-img-top" src={require('../images/moneymoon5.png')} alt="Card image cap"/>
             <div class="card-body">
               <h5 class="card-title">moneymoon</h5>
             </div>
-            </Link>
+          </Link>
         </div>
+
         <div class="card">
           <Link to="/projects/atomic-job">
           <img class="card-img-top" src={require('../images/atomicjob.png')} alt="Card image cap"/>
@@ -24,28 +24,25 @@ function Projects () {
           </Link>
         </div>
 
-      </div>
-
-      <div class="card-deck">
-      <div class="card">
+        <div class="card">
           <Link to="/projects/pictureshuffle">
             <img class="card-img-top" src={require('../images/pictureshuffle.png')} alt="Card image cap"/>
             <div class="card-body">
               <h5 class="card-title">pictureshuffle</h5>
             </div>
-            </Link>
-          </div>
-          <div class="card">
-            <Link to="/projects/captionit">
+          </Link>
+        </div>
+
+        <div class="card">
+          <Link to="/projects/captionit">
             <img class="card-img-top" src={require('../images/captionit.png')} alt="Card image cap"/>
             <div class="card-body">
               <h5 class="card-title">captionIt!</h5>
             </div>
-            </Link>
-          </div>
-      </div>
+          </Link>
+        </div>
 
-      <div class="card">
+        <div class="card">
           <Link to="/projects/typewars">
           <img class="card-img-top" src={require('../images/typewars.png')} alt="Card image cap"/>
           <div class="card-body">
@@ -53,9 +50,6 @@ function Projects () {
           </div>
           </Link>
         </div>
-
-
-
 
     </div>
   )
