@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a72f6b75.chunk.css",
+    "main.js": "/static/js/main.a43d0a5e.chunk.js",
+    "main.js.map": "/static/js/main.a43d0a5e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.45c05def.js",
+    "runtime-main.js.map": "/static/js/runtime-main.45c05def.js.map",
+    "static/js/2.a97e36d5.chunk.js": "/static/js/2.a97e36d5.chunk.js",
+    "static/js/2.a97e36d5.chunk.js.map": "/static/js/2.a97e36d5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2c7198f637019e19d0bc9546af552171.js": "/precache-manifest.2c7198f637019e19d0bc9546af552171.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a72f6b75.chunk.css.map": "/static/css/main.a72f6b75.chunk.css.map",
+    "static/js/2.a97e36d5.chunk.js.LICENSE.txt": "/static/js/2.a97e36d5.chunk.js.LICENSE.txt",
+    "static/media/Soomro_Resume.pdf": "/static/media/Soomro_Resume.c08ca09c.pdf",
+    "static/media/atomicjob.gif": "/static/media/atomicjob.82e1acd1.gif",
+    "static/media/atomicjob.png": "/static/media/atomicjob.a95c4798.png",
+    "static/media/captionit.png": "/static/media/captionit.14226290.png",
+    "static/media/captionit.gif": "/static/media/captionit.407a2144.gif",
+    "static/media/moneymoon.gif": "/static/media/moneymoon.63161b71.gif",
+    "static/media/moneymoon1.png": "/static/media/moneymoon1.ea6501a8.png",
+    "static/media/moneymoon2.png": "/static/media/moneymoon2.b61129fe.png",
+    "static/media/moneymoon3.png": "/static/media/moneymoon3.34fa607b.png",
+    "static/media/moneymoon4.png": "/static/media/moneymoon4.5668ef8c.png",
+    "static/media/moneymoon5.png": "/static/media/moneymoon5.ba2a3a98.png",
+    "static/media/pictureshuffle.png": "/static/media/pictureshuffle.067e90d4.png",
+    "static/media/pictureshuffle.gif": "/static/media/pictureshuffle.0e9d140d.gif",
+    "static/media/typewars.gif": "/static/media/typewars.79acd996.gif",
+    "static/media/typewars.png": "/static/media/typewars.da1fb853.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45c05def.js",
+    "static/js/2.a97e36d5.chunk.js",
+    "static/css/main.a72f6b75.chunk.css",
+    "static/js/main.a43d0a5e.chunk.js"
+  ]
+}
