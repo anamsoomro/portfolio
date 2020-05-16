@@ -2,6 +2,7 @@ import React from 'react'
 
 function Summary () {
   return (
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h1 class="mb-0">Anam
@@ -12,17 +13,17 @@ function Summary () {
         {/* </div> */}
         <p class="lead mb-5">full stack developer with a background in architecture, engineering and construction. taking my background dedicated to the built environment to building on the internet!</p>
         <div class="social-icons">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/anamsoomro/" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/anamsoomro" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-github"></i>
           </a>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
+          <a href="https://medium.com/@anamsoomroed" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-medium"></i>
           </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
+          <a href="https://www.youtube.com/channel/UC2q6ffKH0of1asvLXD2H2aA" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-youtube"></i>
           </a>
         </div>
       </div>

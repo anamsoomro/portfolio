@@ -54,7 +54,7 @@ function Projects () {
           </div>
       </div>
 
-      <div class="card-deck">
+      {/* <div class="card-deck"> */}
       <div class="card">
           <Link to="/projects/typewars">
           <img class="card-img-top" src={require('../images/typewars.png')} alt="Card image cap"/>
@@ -65,7 +65,7 @@ function Projects () {
           </div>
           </Link>
         </div>
-      </div>
+      {/* </div> */}
 
 
 

@@ -2,7 +2,8 @@ import React from 'react'
 
 function Experience () {
   return (
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center " id="experience">
+
       <div class="w-100">
         <h2 class="mb-5">BACKGROUND</h2>
 
@@ -48,7 +49,7 @@ function Experience () {
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between  mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Energy Modeler</h3>
             <div class="subheading mb-3">alliantgroup</div>
@@ -59,9 +60,7 @@ function Experience () {
           </div>
         </div>
 
-
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Civil Engineering</h3>
             <div class="subheading mb-3">university of houston</div>
@@ -72,10 +71,10 @@ function Experience () {
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Engineering Intern</h3>
-            <div class="subheading mb-3">AS Engineers</div>
+            <div class="subheading mb-3">A&S Engineers</div>
             <p>realizing for the first time maybe this isnt for me</p>
           </div>
           <div class="resume-date text-md-right">
@@ -83,12 +82,9 @@ function Experience () {
           </div>
         </div>
 
-
-
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3>check out my resume for the deets. insert link here</h3>
+            <h4><a href={require('../images/Soomro_Resume.pdf')} target="_blank">check out my resume for the deets</a></h4>
           </div>
         </div>
 

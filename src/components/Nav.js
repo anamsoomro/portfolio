@@ -5,8 +5,10 @@ import React from 'react'
 function Nav () {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      {/* <div class="navbar-brand js-scroll-trigger" href="#page-top"> */}
       <div class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">AS
+
+        <span class="d-block d-lg-none">
         </span> 
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="" />

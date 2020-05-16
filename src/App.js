@@ -17,6 +17,7 @@ function App() {
     <div className="App">
       <BrowserRouter> 
         <Nav />
+        {/* Maybe move all these into one component, soo nav doesnt keep re-rendering */}
         <Switch>
           <Route exact path="/" render={ () => <Summary /> } />
           <Route exact path="/background" render={ () => <Experience /> } />
