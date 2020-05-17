@@ -41,9 +41,34 @@ a.nav-link {
 
 
 .page { 
-  padding: 0.5%;
+  padding: 1%;
 }
 
 .badge {
   margin: 2px;
 }
+
+
+
+
+/* mobile */
+.div-only-mobile{
+  /* width:400px;
+  height:200px; */
+  background:orange;
+}
+/* @media screen and (max-width : 1920px){ */
+@media (min-width : 992px){
+
+  .div-only-mobile{
+  /* visibility:hidden; */
+  display: none;
+  }
+}
+@media screen and (max-width : 906px){
+ .div-only-mobile{
+   display: block;
+  /* visibility:visible; */
+  }
+}
+

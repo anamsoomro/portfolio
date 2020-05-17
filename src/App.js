@@ -21,6 +21,7 @@ function App() {
         <Switch>
           <Route exact path="/" render={ () => <Summary /> } />
           <Route exact path="/background" render={ () => <Experience /> } />
+
           <Route exact path="/projects" render={ () => <Projects /> } />
           <Route exact path="/projects/moneymoon" render={ () => <MoneyMoon /> } />
           <Route exact path="/projects/atomic-job" render={ () => <AtomicJob /> } />

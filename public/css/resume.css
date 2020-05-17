@@ -122,6 +122,7 @@ p.lead {
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+  /* mobile nav */
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
